@@ -1,0 +1,24 @@
+{
+  "state": {
+    "content": "Your raw input text goes here"
+  },
+  "questions": {
+    "main_head": {
+      "type": "choice",
+      "question": "What is the primary category for this content?",
+      "options": ["Technology", "Finance", "Health"]
+    },
+    "sub_head": {
+      "type": "choice",
+      "question": "What is the specific sub-category for this content?",
+      "options": [
+        "Software",
+        "Hardware",
+        "Stocks",
+        "Banking",
+        "Fitness",
+        "Nutrition"
+      ]
+    }
+  }
+}
