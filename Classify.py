@@ -300,6 +300,7 @@ def process_csv(input_path: str, narration_col: str, output_path: str,
         )
 
     result_df = pd.concat([df.reset_index(drop=True), pd.DataFrame(rows)], axis=1)
+        
     result_df.to_csv(output_path, index=False)
 
     print(f"\nDone. {len(df)} rows -> {output_path}")
@@ -308,12 +309,13 @@ def process_csv(input_path: str, narration_col: str, output_path: str,
 
 
 if __name__ == "__main__":
+    settings = default_settings
     parser = argparse.ArgumentParser(
         description="Hybrid System-1/System-2 classifier for banking ERP cost narrations."
     )
     parser.add_argument("input_csv", help="Path to input CSV containing the narration column")
     parser.add_argument("--column", default="narration", help="Narration text column name (default: narration)")
-    parser.add_argument("--output", default="classified_output.csv", help="Path to output CSV")
+    parser.add_argument("--output", default=settings.output_filename, help="Path to output CSV")
     parser.add_argument("--regenerate-taxonomy", action="store_true",
                          help="Force a fresh System-2 taxonomy design call even if taxonomy.json is cached")
     parser.add_argument("--backend", choices=["causal_lm", "laya"], default=None,
@@ -321,7 +323,7 @@ if __name__ == "__main__":
                               "(causal_lm=Qwen2.5 logit read-off, laya=Convai Laya)")
     args = parser.parse_args()
 
-    settings = default_settings
+    
     if args.backend is not None:
         settings = default_settings.model_copy(update={"classifier_backend": args.backend})
 

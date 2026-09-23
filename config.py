@@ -50,6 +50,10 @@ class AppSettings(BaseSettings):
     # order and averaging probability per label cancels that bias out.
     debias_permutations: int = 3
 
+    # Output Filename
+    output_filename: str = "classified_output.csv"
+
+
     @model_validator(mode="after")
     def _check_system1_not_laya(self) -> "AppSettings":
         # Catches the collision regardless of source: a bad code default here,

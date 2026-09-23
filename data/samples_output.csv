@@ -1,0 +1,24 @@
+narration,main_category,main_confidence,main_top3,sub_category,sub_confidence,sub_top3,time_taken_sec
+Pen test svcs,Security,0.4162,"('Security (41.6%) | Others (21.9%) | Infrastructure (21.4%)', 0.4162)",Penetration Testing,0.9718,Penetration Testing (97.2%) | Firewall (2.8%),1.0774
+DC Colocation Charges,Infrastructure,0.5073,"('Infrastructure (50.7%) | Security (23.3%) | Maintenance & Support (9.8%)', 0.5073)",Data Center Colocation,0.6771,Data Center Colocation (67.7%) | Cloud Compute (32.3%),1.1154
+SAP Maintenance Fee,Maintenance & Support,0.8751,"('Maintenance & Support (87.5%) | Licensing (4.2%) | Infrastructure (3.2%)', 0.8751)",Annual Maintenance Contract,0.8526,Annual Maintenance Contract (85.3%) | Support Renewals (14.7%),1.0125
+Fortinet FW Support,Security,0.7054,"('Security (70.5%) | Infrastructure (14.2%) | Maintenance & Support (7.5%)', 0.7054)",Firewall,0.7345,Firewall (73.5%) | Penetration Testing (26.6%),0.9108
+ZOOM SUBSCRIPTION CHG,Others,0.2946,"('Others (29.5%) | Licensing (25.5%) | Security (22.6%)', 0.2946)",Costs related to:,0.0,"N/A (dynamically generated, not a closed-set probability)",9.0715
+DC coloc fee,Infrastructure,0.4668,"('Infrastructure (46.7%) | Others (20.7%) | Maintenance & Support (14.1%)', 0.4668)",Cloud Compute,0.6631,Cloud Compute (66.3%) | Data Center Colocation (33.7%),0.9659
+VMware vSphere License Renewal,Licensing,0.9068,"('Licensing (90.7%) | Infrastructure (3.2%) | Maintenance & Support (2.8%)', 0.9068)",Virtualization,0.5158,Virtualization (51.6%) | Enterprise Software (35.9%) | Productivity & Collaboration (12.6%),1.1919
+Pen test svcs,Security,0.4162,"('Security (41.6%) | Others (21.9%) | Infrastructure (21.4%)', 0.4162)",Penetration Testing,0.9718,Penetration Testing (97.2%) | Firewall (2.8%),1.0098
+MSFT O365 Lic3nse Fee,Licensing,0.9593,"('Licensing (95.9%) | Security (1.5%) | Infrastructure (1.0%)', 0.9593)",Enterprise Software,0.5415,Enterprise Software (54.1%) | Productivity & Collaboration (25.6%) | Virtualization (20.3%),1.1018
+network firewall supp. contract,Security,0.4478,"('Security (44.8%) | Infrastructure (32.4%) | Maintenance & Support (9.1%)', 0.4478)",Firewall,0.8215,Firewall (82.2%) | Penetration Testing (17.8%),0.9821
+Penetration Testing - Q3,Security,0.9085,"('Security (90.8%) | Infrastructure (3.8%) | Others (2.4%)', 0.9085)",Penetration Testing,0.9691,Penetration Testing (96.9%) | Firewall (3.1%),0.9665
+firewal support renewal,Security,0.3861,"('Security (38.6%) | Maintenance & Support (30.0%) | Licensing (13.2%)', 0.3861)",Firewall,0.8298,Firewall (83.0%) | Penetration Testing (17.0%),1.2067
+AWS EC2 Compute Charges,Infrastructure,0.5381,"('Infrastructure (53.8%) | Licensing (22.8%) | Security (13.8%)', 0.5381)",Cloud Compute,0.9602,Cloud Compute (96.0%) | Data Center Colocation (4.0%),0.9596
+vmwar3 license fee,Licensing,0.6909,"('Licensing (69.1%) | Security (13.4%) | Infrastructure (12.2%)', 0.6909)",Virtualization,0.7309,Virtualization (73.1%) | Enterprise Software (19.5%) | Productivity & Collaboration (7.4%),1.1555
+VMware vSphere License Renewal,Licensing,0.9068,"('Licensing (90.7%) | Infrastructure (3.2%) | Maintenance & Support (2.8%)', 0.9068)",Virtualization,0.5158,Virtualization (51.6%) | Enterprise Software (35.9%) | Productivity & Collaboration (12.6%),1.0001
+Data Center Colocation Fee,Infrastructure,0.6737,"('Infrastructure (67.4%) | Security (14.4%) | Licensing (8.9%)', 0.6737)",Data Center Colocation,0.9801,Data Center Colocation (98.0%) | Cloud Compute (2.0%),1.1203
+datacenter colo chg,Infrastructure,0.4564,"('Infrastructure (45.6%) | Security (28.3%) | Others (9.8%)', 0.4564)",Cloud Compute,0.7243,Cloud Compute (72.4%) | Data Center Colocation (27.6%),0.9267
+AWS EC2 chg,Infrastructure,0.5718,"('Infrastructure (57.2%) | Licensing (17.8%) | Security (17.2%)', 0.5718)",Cloud Compute,0.9407,Cloud Compute (94.1%) | Data Center Colocation (5.9%),0.8915
+MS O365 lic,Licensing,0.8872,"('Licensing (88.7%) | Security (4.2%) | Infrastructure (3.0%)', 0.8872)",Enterprise Software,0.5199,Enterprise Software (52.0%) | Productivity & Collaboration (33.0%) | Virtualization (15.0%),1.1034
+SAP AMC,Security,0.3537,"('Security (35.4%) | Others (20.1%) | Licensing (15.9%)', 0.3537)",Penetration Testing,0.6785,Penetration Testing (67.8%) | Firewall (32.1%),1.3248
+Security Pen-Test Charges,Security,0.7776,"('Security (77.8%) | Others (8.0%) | Licensing (7.8%)', 0.7776)",Penetration Testing,0.8843,Penetration Testing (88.4%) | Firewall (11.6%),1.5115
+VMW vSph3re License,Licensing,0.8399,"('Licensing (84.0%) | Infrastructure (7.7%) | Security (5.8%)', 0.8399)",Virtualization,0.5714,Virtualization (57.1%) | Enterprise Software (33.5%) | Productivity & Collaboration (9.3%),1.5601
+Zoom Ent. subscrpition,Others,0.2524,"('Others (25.2%) | Licensing (24.9%) | Security (21.2%)', 0.2524)",Cost of Goods Sold (CO,0.0,"N/A (dynamically generated, not a closed-set probability)",2.2779

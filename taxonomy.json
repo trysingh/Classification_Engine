@@ -1,43 +1,20 @@
 {
-  "Cloud & Infrastructure": [
-    "Public Cloud Consumption",
-    "Hyperconverged Infrastructure",
-    "Container & Orchestration",
-    "CDN & Edge Services",
-    "Data Platform & Storage"
+  "Infrastructure": [
+    "Data Center Colocation",
+    "Cloud Compute"
   ],
-  "Software Licensing": [
-    "Enterprise Resource Planning",
-    "Human Capital Management",
-    "Customer Relationship Management",
-    "Business Intelligence & Analytics",
-    "Collaboration & Productivity",
-    "IT Service Management",
-    "Development & DevOps Tools"
+  "Security": [
+    "Penetration Testing",
+    "Firewall Support"
   ],
-  "Cybersecurity & Governance": [
-    "Endpoint Protection",
-    "Vulnerability Management",
-    "Identity & Access Management",
-    "Cloud Security",
-    "Code Quality & Security"
+  "Licensing": [
+    "Virtualization",
+    "Productivity Software",
+    "Enterprise Applications"
   ],
-  "Professional Services": [
-    "Implementation Services",
-    "Development & Integration",
-    "Strategic Consulting",
-    "Project-Based Delivery"
-  ],
-  "Managed Services & Support": [
-    "Application Managed Services",
-    "Maintenance & Support Fees",
-    "L2/L3 Technical Support",
-    "Operational Support"
-  ],
-  "Integration & Middleware": [
-    "API Management",
-    "Integration Platform as a Service",
-    "Messaging & Event Streaming"
+  "Maintenance & Support": [
+    "Annual Maintenance Contract",
+    "Software Support"
   ],
   "Others": []
 }

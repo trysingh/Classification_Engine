@@ -104,7 +104,9 @@ The system expects and produces a JSON taxonomy structured as:
 >
 ### When calling Laya
 python Classify.py source_file.csv --backend laya
+python Classify.py "data\samples.csv" --output "data/samples_output.csv" --backend laya --regenerate-taxonomy
 
 ### When calling other models like qwen etc
 python Classify.py source_file.csv --backend causal_lm
+python Classify.py "data\samples.csv" --output "data/samples_output.csv" --backend casual_lm --regenerate-taxonomy
 

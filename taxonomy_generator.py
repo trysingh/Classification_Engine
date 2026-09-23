@@ -89,10 +89,12 @@ def generate_taxonomy(narrations: list[str], settings: AppSettings) -> dict:
     taxonomy = _validate_and_trim(result["taxonomy"], settings)
 
     settings.taxonomy_path.write_text(json.dumps(taxonomy, indent=2))
+    print(f"Saved dynamically generated taxonomy to {settings.taxonomy_path}")
     return taxonomy
 
 
 def load_or_generate_taxonomy(narrations: list[str], settings: AppSettings, force: bool = False) -> dict:
     if not force and settings.taxonomy_path.exists():
+        print(f"Loading cached taxonomy from {settings.taxonomy_path}")
         return json.loads(settings.taxonomy_path.read_text())
     return generate_taxonomy(narrations, settings)
